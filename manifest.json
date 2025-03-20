@@ -1,0 +1,18 @@
+{
+   "manifest_version": 3,
+   "version": "2.5",
+   "name": "Policy Peek",
+   "description": "Welcome to Policy Peek", 
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {},
+   "permissions": [
+      "tabs",
+      "storage"
+   ],
+   "host_permissions": [
+      "https://api.openai.com/",
+      "<all_urls>"
+   ]
+}
